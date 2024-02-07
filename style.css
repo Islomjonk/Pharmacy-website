@@ -1,18 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-.container{
+.container {
     width: 1540px;
     height: 100vh;
     margin: auto;
 }
 .header{
     width: 100%;
-    background-color:cornflowerblue;
     height: 100vh;
     display: flex;
 }
@@ -206,3 +205,175 @@
         font-size: 14px;
     }
 }
+
+
+/* ======= NEW_PRODUCTS ====== NEW_PRODUCTS ======= */
+.main__cards h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cards__inner {
+    display: flex;
+    justify-content: center;
+    background-color:#f9f9f9;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+ 
+.card {
+    margin-top: 35px;
+    color: #000000;
+    background-color: white;
+    border: 1px solid #eceff133;
+    border-radius: 5px;
+    font-size: 11px;
+    width: 470px;
+    height: 400px;
+    box-shadow: 1px 1px 20px 20px #f0f0f0;
+}
+
+.cards__card img {
+    width: 465px;
+    height: 350px;
+}
+.View_more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #f9f9f9;
+}
+
+.more{
+    width: 200px;
+    height: 45px;
+    background: #000;
+    font-size: 16px;
+    color: #fff;
+    border: 1px solid #000;
+}
+.more:hover{
+    background:#2e9bbb;
+    color: #fff;
+    transition: 0.9s;
+    border: 1px solid#2e9bbb;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* .container {
+  width: 1540px;
+  min-height: 100vh;
+  margin: auto;
+  border: 1px solid #000;
+} */
+.what-we-do {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.what-we-do-item {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.what-we-do-item-textBx-item {
+  width: 300px;
+  margin: 0px 0px 30px;
+  padding: 0px 15px;
+}
+.what-we-do-item-textBx-item h2{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.what-we-do-item-textBx-item div{
+    margin-top: 25px;
+}
+.what-we-do-item-textBx-item div p{
+    position: relative;
+    padding: 0px 0px 7px 18px;
+    font-size: 19px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.what-we-do-item-textBx-item div p::before{
+    opacity: 0%;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 27%;
+    width: 6px;
+    height: 6px;
+    background-color: #2ebbbb;
+    transition: 0.2s ease;
+}
+.what-we-do-item-textBx-item div p:hover::before{
+    opacity: 100%;
+}
+.what-we-do-textBx {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.what-we-do-textBx h1{
+    font-size: 45px;
+}
+.what-we-do-textBx p{
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.what-we-do-textBx-btn{
+    margin-top: 43px;
+    padding: 15px 46px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #1b1b1b;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border: none;
+    &:hover{
+        background-color: #008fd6;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .what-we-do{
+        flex-direction: column;
+    }
+    .what-we-do-item{
+        text-align: center;
+    }
+    .what-we-do-textBx{
+        width: 90%;
+        align-items: flex-start;
+        text-align: start;
+    }
+    .what-we-do-textBx h1{
+        font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 575px){
+    .what-we-do-textBx{
+        align-items: center;
+    }
+  }
