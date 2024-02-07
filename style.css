@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
     margin: 0;
     padding: 0;
@@ -68,21 +69,12 @@
     transition: 0.9s;
     border: 1px solid#2e9bbb;
 }
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-  font-family: "Roboto Condensed", sans-serif;
-}
 
-/* .container {
-  width: 1540px;
-  min-height: 100vh;
-  margin: auto;
-  border: 1px solid #000;
-} */
+
+/* ========= what-we-do ======== what-we-do ============ */
+
+
+
 .what-we-do {
   width: 100%;
   min-height: 50vh;
