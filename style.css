@@ -7,19 +7,19 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.container {
+/* .container {
   width: 1540px;
   min-height: 100vh;
   margin: auto;
   border: 1px solid #000;
-}
+} */
 .what-we-do {
   width: 100%;
   min-height: 50vh;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .what-we-do-item {
   width: 60%;
@@ -92,3 +92,24 @@
         background-color: #008fd6;
     }
 }
+@media screen and (max-width: 1000px) {
+    .what-we-do{
+        flex-direction: column;
+    }
+    .what-we-do-item{
+        text-align: center;
+    }
+    .what-we-do-textBx{
+        width: 90%;
+        align-items: flex-start;
+        text-align: start;
+    }
+    .what-we-do-textBx h1{
+        font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 575px){
+    .what-we-do-textBx{
+        align-items: center;
+    }
+  }
